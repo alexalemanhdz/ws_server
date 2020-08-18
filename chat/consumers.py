@@ -25,7 +25,11 @@ class chatConsumer(WebsocketConsumer):
       {
         'type': 'message',
         'msg': text_data_json['msg'],
-        'user': text_data_json['user']
+        'user': text_data_json['user'],
+        'hora': '12:00',
+        'categoria': 6,
+        'lugar': 'Calle Falsa #123',
+        'prioridad': 3,
       }
     )
 
